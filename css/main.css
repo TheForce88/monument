@@ -1,0 +1,213 @@
+/* ================================================================
+   global
+================================================================ */
+body {
+  font-family: "awesome", sans-serif;
+  color: #546278;
+  margin-left: -1px;
+  margin-right: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ================================================================
+   header
+================================================================ */
+header {
+  height: 271px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 30px 0 30px 0;
+  width: 100%;
+  background-image: url('../img/blog_header_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  box-sizing: border-box; /*may want to remove*/
+}
+
+h1 {
+  margin: auto; /*check out flex box*/
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+/* ================================================================
+   main layout
+================================================================ */
+main {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flexbox-container {
+  display: flex;
+}
+
+.leftwrap {
+  display: inline-block;
+  flex: 2;
+  margin-right: 35px;
+}
+
+.rightwrap {
+  display: inline-block;
+  flex: 1;
+  margin-left: 35px;
+}
+
+.blog-img {
+  width: 100%;
+}
+
+.about-img {
+  width: 100%;
+}
+
+p, section {
+  font-size: 16px
+}
+
+section {
+  padding: 5px 0px 5px 0px;
+}
+
+.bottom-padding {
+  paddng-bottom: 35px;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+/* ================================================================
+   navigation
+================================================================ */
+nav {
+  display: block;
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+.sticky {
+  width: 100%;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav:first-of-type a {
+  color: #a0b0c0;
+  padding: 0px 50px 0px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 100%;
+}
+
+li a {
+  color: #76b5bc;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+li {
+  padding: 5px 0px 5px 0px;
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+/* ================================================================
+   form
+================================================================ */
+.wrapper {
+  width: 100%;
+  padding: 5px;
+  /*display: flex;*/
+}
+
+.wrapper h2 {
+  text-transform: uppercase;
+}
+
+.wrapper h4 {
+  text-align: center;
+}
+
+.form-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-bottom {
+  width: 100%;
+}
+
+.submit {
+  width: 100%;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 8px;
+  /*display: inline-block;*/
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=textarea] {
+  display: block;
+  width: 100%;
+}
+
+
+
+
+
+/* ================================================================
+   footer
+================================================================ */
+footer {
+  width: 100%;
+  height: 130px;
+  background: #7cd4d5;
+  position: absolute;
+  padding: 10px 0;
+}
+
+.media-links {
+  text-align: center;
+  padding: 20px 0 20px 0;
+  border-bottom: solid #486d93;
+}
+
+.fa {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #486d93;
+}
+
+.copyright {
+  color: #486d93;
+  text-align: center;
+  padding: 0;
+  margin: 20px 0 0 0;
+
+}
