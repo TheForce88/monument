@@ -123,7 +123,7 @@ article {
   text-align: center;
 }
 
-.resize {
+ {
   text-align: center;
   vertical-align: top;
 }
@@ -155,24 +155,15 @@ h2 {
   width: 30%;
 }
 
-.gal-col-1 {
-  display: inline-block;
-  order: 1;
+.gallery {
+	display: flex;
+  flex-flow: column wrap;
+	height: 60em;
 }
 
-.gal-col-2 {
-  display: inline-block;
-  order: 2;
-}
-
-.gal-col-3 {
-  display: inline-block;
-  order: 3;
-}
-
-.resize {
-  display: inline-block;
-  vertical-align: top;
+.gal-img {
+	padding: 1em 0 1em 0;
+	width: 30%;
 }
 
 h4 {
@@ -383,10 +374,25 @@ and (-webkit-min-device-pixel-ration: 2) {
     padding: 0 0 2em 0;
   }
   .form-top {
-    display: block;
-    /*width: 100%;*/
+    display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 0;
+		margin: 0;
+		width: 100%;
   }
-  /*.comment {
-    width: 100%;
-  }*/
+
+	input[type=text].comment {
+	  width: 91.5%;
+		margin-left: 1.5em;
+}
+
+	.gallery {
+		height: 45%;
+	}
+	
+	.gal-img {
+		padding: 1em 0 1em 0;
+		width: 100%;
+	}
 }
