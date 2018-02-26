@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Monument | Blog</title>
+	<title>Monument | Home</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/landing.css">
+	<link rel="stylesheet" href="css/home.css">
 
 </head>
 <body class="blog-page">
@@ -80,13 +80,15 @@
 
 		</aside>
 
-		<form method="POST" action="/page">
+		<form method="POST" action="#">
     <div class="wrapper">
       <h4>Get in Touch</h4>
       <div class="form-top">
-        <input class="comment" type="text" name="" id="" placeholder="FULL NAME">
-        <input class="comment" type="text" name="" id="" placeholder="EMAIL">
-				<input class="comment" type="text" name="" id="" placeholder="SUBJECT">
+
+        <input type="text" name="" id="nameInput" placeholder="FULL NAME">
+
+				<input type="text" name="" id="emailInput" placeholder="EMAIL">
+				<input type="text" name="" id="subjectInput" placeholder="SUBJECT">
       </div>
       <div class="form-bottom">
         <textarea class="textarea" name="" id="" cols="30" rows="10" placeholder="MESSAGE"></textarea>
@@ -111,8 +113,11 @@
 		</div>
 
 		<p class="copyright">&copy;2018 Elaine Chesoni</p>
-		<!-- Credit Sarah Holden 2016 -->
+		<!-- Credit Sarah Holden 2016 for formatting -->
 	</footer>
+
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/main.js"></script>
 
 </body>
 </html>

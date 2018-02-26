@@ -290,13 +290,20 @@ form {
   font-weight: bold;
 }
 
-input[type=text].comment {
+input {
   width: 50%;
   padding: 1.2em 2em;
   margin: .8em .8em;
   border: .2em solid #546278;
   box-sizing: border-box;
   font-weight: bold;
+}
+/*input:focus {
+	outline: none;
+}*/
+
+.error {
+  border: .2em solid #ff0000;
 }
 
 button {
@@ -382,7 +389,7 @@ and (-webkit-min-device-pixel-ration: 2) {
 		width: 100%;
   }
 
-	input[type=text].comment {
+	input {
 	  width: 91.5%;
 		margin-left: 1.5em;
 }
@@ -390,7 +397,7 @@ and (-webkit-min-device-pixel-ration: 2) {
 	.gallery {
 		height: 45%;
 	}
-	
+
 	.gal-img {
 		padding: 1em 0 1em 0;
 		width: 100%;
