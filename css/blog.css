@@ -106,11 +106,13 @@ nav {
 
 nav:first-of-type a {
   color: #a0b0c0;
+  font-weight: 600;
   padding: 0px 50px 0px 50px;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
   width: 100%;
+  letter-spacing: .05em;
 }
 
 li a {
@@ -163,10 +165,6 @@ form {
   font-style: bold;
   height: 40px;
 }
-/*
-.button {
-  padding: 10px;
-}*/
 
 .textarea {
   width: 100%;
